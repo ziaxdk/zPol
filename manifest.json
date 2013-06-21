@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "zPol",
+  "description": "Removes politiken restriction",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["http://politiken.dk/*"],
+      "js": ["js/zpol.js"]
+    }
+  ]
+}
